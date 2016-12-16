@@ -1,33 +1,41 @@
-Hello World
-<!doctype html>
-<html>
-    <head>
+<!DOCTYPE html>
+<head>
+  <title>Craig Leslie</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/15608683_1574993809184395_945134721_o.jpg?oh=a98534a71e6f6f49e092acd2fef9322c&oe=58553E9B");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+   
+     @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      
+    
+    }
+  </style>
+</head>
+<body>
 
-      <link rel="stylesheet" type="type/css" href="style.css">
-        <title>My CSE 199 Personal Website</title>
-    </head>
+  <header>
+  <h1>Craig Leslie</h1>
+   
+  </header>
 
-
-    <body>
-      <p>
-
-      My name is Craig Leslie.
-     </p>
-
-     <p>
-       I just turned 18 years old on September 26th.
-      I was born in Hexham, England.
-      </p>
-
-      <p>
-        I'm a computer science major at the University at Buffalo.
-      </p>
-
-      <p>
-        Here are somethings I enjoy doing: reading, hanging out
-          with friends, playing video games, listening to music, swimmming,
-          golfing, and long walks on the beach at sunset with my dogs.
-      </p>
-    <body>
-
-</html>
+  <form action="https://dash.generalassemb.ly/To_Conquer0/build-your-own-blog-theme">
+    <input type="submit" value="Main Site" />
+</form>
+ 
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+  </header>
+</body>
