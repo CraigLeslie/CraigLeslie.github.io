@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/15608683_1574993809184395_945134721_o.jpg?oh=a98534a71e6f6f49e092acd2fef9322c&oe=58553E9B');
+      
+      color: rgba(2,232,215,1);
+      background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    padding: 20px;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: Veranda;
+      text-align: center;
+      
+    }
+    h2{
+     text-align: center; 
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 4px solid rgba(5,25,25,0.5);
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(25,0,5,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    form {
+      padding: 0px 200px 10px 200px;
+     margin: 0px 0px 0px 0px;
+     
+     text-align: center;
+    }
+    article{
+      background: rgba(25,15,50,0.2);
+      
+    }
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      form{
+        padding: 0px 150px 0px 100px;
+        margin: 0;
+        text-align: center;
+        
+        
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-0/s118x118/12805927_184975218556802_9216219958652734435_n.jpg?oh=958e92478ddca9eaca524d8db1836851&oe=58E5B783">
+    <h1>Craig Leslie</h1>
+    <ul>
+      
+      <li><a href="https://docs.google.com/document/d/1noMqtEVm8FsopvF1z66iNG3dhKo7kcEsNLJUvLTDzcI/edit">Email</a></li>
+      <li><a href="https://www.facebook.com/craig.leslie.3705">Facebook</a></li>
+    </ul>
+  </header>
+  
+  <article>
+  <h1> Welcome!
+  <h2>
+    <h2>About Me:</h2>
+    <p>I am a undergraduate student of the University at Buffalo majoring in Computer Science.  I hope to graduate with a B.S in computer science and maybe a minor in something. I am currently on the UB Swim Club. If you know any sites that can help a CS major then please contact me. A special thanks to Sayef Iqbal for letting me use his photo and if you want to see more click the button below.  </p>
+    
+  </article> 
+  <form action="https://sayefiqbal.github.io/main.html">
+    <input type="submit" value="Click Here!" />
+</form>
+ 
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
